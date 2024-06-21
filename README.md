@@ -6,12 +6,6 @@ An online tool, powered by The Blue Alliance API, that will find and display inf
 
 It doesn't! This can be run in its simplest form to find match numbers as a python script. Its not pretty and this V1 script did not print out the alliance mates as well, just the match code, event code and match type.
 
-However, this method is not pretty, it requires you to get your own TBA API key and also have python installed and pip install the required packages... Then you can only run it from a laptop or special app. So a website will be better. The backend will move to NodeJs with an EJS frontend just like GoFundRobots.org. The difference is this time we could lease a new domain or use a subdomain for FRCzero.org or GoFundRobots.org.
-
-To try the idea out without moving to nodeJS yet I did a python flask server
-
-With all of that you have a mini version of what this project will look like that you can run at home yourself before the real site goes live. 
-
 **FRC Matchfinder is a terrible name, are we stuck with it?**
 
 No! I didn't already rush out and lease a domain without asking first! Please give me some ideas!

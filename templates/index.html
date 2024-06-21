@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRC Match Finder</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.1.3/dist/darkly/bootstrap.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/custom.css') }}">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center">FRC Match Finder</h1>
+        <form id="team-form" class="mt-4">
+            <div class="row mb-3">
+                <div class="col">
+                    <input type="text" class="form-control" id="team1" name="team1" placeholder="Enter Team 1 Number" required>
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" id="team2" name="team2" placeholder="Enter Team 2 Number" required>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Find Matches</button>
+        </form>
+        <div id="matches-accordion" class="mt-4"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+</body>
+</html>

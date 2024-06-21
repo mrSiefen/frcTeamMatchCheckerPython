@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # Replace with your actual TBA API key
-TBA_API_KEY = '9AMhff0rvpZKV8DrjVepfs7FckKftiVy7odokTeT8SeAaIpjPAwwrWDUE2e8XkAj'
+TBA_API_KEY = ''
 TBA_BASE_URL = 'https://www.thebluealliance.com/api/v3'
 
 headers = {
